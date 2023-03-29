@@ -1,0 +1,91 @@
+/* IMPOSTAZIONI GENERALI */
+*{
+    font-family: 'Raleway' , sans-serif;
+}
+/* HEADER */
+hr{
+    border-top: 2px dotted rgb(75,75,74);
+}
+.iniziofine{
+    border: 0;
+    border-top: 2 px solid;
+    color: rgb(9,123,172);
+}
+header {
+    background-color: rgb(68,199,255);
+    color: white;
+
+}
+span{
+    background-color: white;
+    color: rgb(68,199,255);
+    text-transform: uppercase;
+}
+h1{
+    text-transform: uppercase; 
+    text-align: center;
+}
+h2{
+    text-align: center;
+    text-transform: capitalize;
+    font-variant: small-caps;
+    color: black;
+}
+/* MAIN */
+main{
+    text-align: center;
+    align-items: center;
+}
+/* ELEMENTI NEL MAIN */
+main h2{
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(68,199,255);
+}
+address{
+    text-align: left;
+    line-height: 2em;
+}
+a{
+    color: red;
+}
+blockquote{
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: rgb(187,187,187);
+    text-align: center;
+    line-height: 2em;
+}
+ strong{
+    color: rgb(68,199,255);
+}
+.presentazione{
+    text-align: justify;
+    line-height: 1.5em;
+}
+.formazione{
+    text-align: left;
+    line-height: 1.5em;
+}
+.formazione mark{
+background-color: rgb(68,199,255);
+}
+.competenze{
+    text-align: left;
+}
+figure{
+    padding: 20px;
+    border: 2px solid;
+}
+figure img{
+    width: 100%;
+}
+
+/* FOOTER */
+footer{
+    color: white;
+    background-color: rgb(58,57,57); text-align: center;
+}
+kbd{
+    color: yellow;
+}
